@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "projectImage": "https://i.ibb.co.com/DQWgm5X/Screenshot-2025-01-04-at-11-23-21-PM.png",
+    "projectName": "Movie-Paradise",
+    "projectFeatures": [
+      "Movie Filtering: Users can filter the list of movies by their category (e.g., Drama, Comedy, Action)",
+      "Favorite List: Users can add any movie to their personal favorite list",
+      "Trending Movies: Users can view a list of currently trending movies",
+      "Favorite List Management: Users can delete movies they have previously added to their favorite list"
+    ],
+    "projectDescription": "This movie platform offers a user-friendly experience with several key features. Users can easily filter the vast library of movies by category, allowing them to quickly find films that match their interests. Additionally, they can curate their own personal collection by adding any movie to their favorite list. The platform also highlights trending movies, keeping users informed about the most popular and talked-about films. To maintain a personalized experience, users have full control over their favorite list, with the ability to add and remove movies as their preferences evolve. This functionality allows users to effectively manage their favorite list, ensuring it accurately reflects their current interests. With these features, users can easily discover, explore, and enjoy a personalized movie-watching experience.",
+    "frontendCodeLink": "https://github.com/ranak8811/PH-Movie-Paradise-Client--B-10_A-10",
+    "backendCodeLink": "https://github.com/ranak8811/PH-Movie-Paradise-Server--B-10_A-10",
+    "liveSiteLink": "https://movie-portal-b3ddf.web.app/"
+  },
+  {
+    "id": 2,
+    "projectImage": "https://i.ibb.co.com/BTt5XYZ/Screenshot-2025-01-04-at-11-21-46-PM.png",
+    "projectName": "EduVerse",
+    "projectFeatures": [
+      "Course Booking: Users can book any available course.",
+      "Admin User Management: The administrator has the ability to manage the booking status of all users.",
+      "Dark/Light Mode: The website offers a toggle feature for switching between dark and light mode."
+    ],
+    "projectDescription": "This platform allows users to conveniently book courses of their choice. Administrators have the necessary tools to efficiently manage user bookings. Additionally, the website enhances user experience by providing a customizable dark/light mode option.",
+    "frontendCodeLink": "https://github.com/ranak8811/PH_B-10_A-11-EduVerse-Client",
+    "backendCodeLink": "https://github.com/ranak8811/PH_B-10_A-11-EduVerse-Server",
+    "liveSiteLink": "https://eduverse-ph-a-11.web.app/"
+  },
+  {
+    "id": 3,
+    "projectImage": "https://i.ibb.co.com/smyZ80d/Screenshot-2025-01-04-at-11-24-08-PM.png",
+    "projectName": "Edufy",
+    "projectFeatures": [
+      "Course Enrollment: Students can enroll in desired courses.",
+      "Quiz Participation: Students can participate in both Multiple-Choice Question (MCQ) and written quizzes.",
+      "Admin Announcements: Administrators can disseminate course-related announcements to students.",
+      "Course Material Access: Students have access to all course materials."
+    ],
+    "projectDescription": "This platform provides students with the ability to enroll in courses, participate in various quiz formats, receive important announcements from administrators, and access all necessary course materials.",
+    "frontendCodeLink": "https://github.com/MaHdIn2020/Edufy-E-learning-platform-/tree/browse",
+    "backendCodeLink": "https://github.com/ranak8811/Edufy-server-CSE470",
+    "liveSiteLink": "https://edufy-cse470.web.app/"
+  }
+]
