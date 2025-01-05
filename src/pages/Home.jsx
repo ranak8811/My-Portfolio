@@ -11,7 +11,7 @@ const Home = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("projects.json")
+    fetch("/projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
