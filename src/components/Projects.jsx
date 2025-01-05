@@ -55,9 +55,6 @@ const Projects = ({ projects }) => {
                   <Link to={`/details/${project.id}`}>View Details</Link>
                 </div>
               </div>
-
-              {/* Hover Animation - Card Overlay */}
-              {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent to-purple-900 opacity-0 group-hover:opacity-80 transition-opacity duration-500"></div> */}
             </div>
           ))}
         </div>

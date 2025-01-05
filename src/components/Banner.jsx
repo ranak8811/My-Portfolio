@@ -5,7 +5,7 @@ import profileImg from "../assets/profile.jpeg";
 
 const Banner = () => {
   return (
-    <div className="bg-black min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 text-white">
+    <div className="bg-black min-h-[calc(100vh-72px)] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 text-white">
       {/* Left Section */}
       <div className="flex flex-col justify-center items-start space-y-6 w-full md:w-1/2">
         {/* Typewriter Titles */}
@@ -19,6 +19,10 @@ const Banner = () => {
             deleteSpeed={70}
           />
         </h1>
+
+        <h2 className="text-4xl font-bold ">
+          I&apos;m <span className="text-pink-500">Md. Anwar Hossain</span>
+        </h2>
 
         {/* Description */}
         <p className="text-lg text-gray-300 leading-relaxed max-w-md">

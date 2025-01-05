@@ -22,7 +22,7 @@ const Details = () => {
   } = project;
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-black via-purple-900 to-black text-white py-16 px-6">
+    <section className="min-h-[calc(100vh-72px)] bg-gradient-to-b from-black via-purple-900 to-black text-white py-16 px-6">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left Section: Project Image */}
         <motion.div

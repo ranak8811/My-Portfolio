@@ -6,7 +6,7 @@ const AboutMe = () => {
     <div className="bg-black text-white py-16 px-6 md:px-16" id="about">
       {/* Section Header */}
       <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold text-gradient bg-gradient-to-r from-purple-500 to-pink-500 inline-block">
+        <h2 className="text-4xl font-bold text-pink-500 inline-block">
           About Me
         </h2>
         <p className="text-gray-300 text-lg mt-2">
