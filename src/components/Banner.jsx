@@ -71,7 +71,7 @@ const Banner = () => {
 
         {/* Download Resume Button */}
         <motion.a
-          href="/resume.pdf"
+          href="/Resume_of_Anwar_Hossain.pdf"
           download
           className="mt-4 inline-flex items-center px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 font-semibold rounded-lg shadow-lg hover:scale-105 transition-transform text-white"
           whileHover={{ scale: 1.1 }}

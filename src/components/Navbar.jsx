@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* End Part: Resume Button */}
         <div className="hidden md:block">
           <a
-            href="/resume.pdf"
+            href="/Resume_of_Anwar_Hossain.pdf"
             download
             className="btn btn-secondary text-white hover:scale-105 transition-transform"
           >
@@ -97,7 +97,7 @@ const Navbar = () => {
               Contact
             </a>
             <a
-              href="/resume.pdf"
+              href="/Resume_of_Anwar_Hossain.pdf"
               download
               className="mt-2 inline-flex items-center px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 font-semibold rounded-lg shadow-lg hover:scale-105 transition-transform text-white"
               onClick={handleToggleMenu}
