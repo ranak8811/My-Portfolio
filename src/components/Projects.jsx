@@ -15,47 +15,46 @@ const Projects = ({ projects }) => {
         {/* Grid layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className="relative group rounded-xl shadow-lg bg-gradient-to-b from-purple-800 to-black overflow-hidden"
-            >
-              {/* Project Image */}
-              <img
-                src={project.projectImage}
-                alt={project.projectName}
-                className="w-full h-48 object-cover transform group-hover:scale-110 transition-transform duration-500"
-              />
+            <Link key={project.id} to={`/details/${project.id}`}>
+              <div className="relative group rounded-xl shadow-lg bg-gradient-to-b from-purple-800 to-black overflow-hidden">
+                {/* Project Image */}
+                <img
+                  src={project.projectImage}
+                  alt={project.projectName}
+                  className="w-full h-48 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
 
-              {/* Project Details */}
-              <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-pink-400 mb-2">
-                  {project.projectName}
-                </h3>
-                <div className="text-gray-300 space-y-2">
-                  {/* Frontend Code Link */}
-                  <a
-                    href={project.frontendCodeLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block text-sm text-purple-400 underline hover:text-pink-500 transition-colors duration-300"
-                  >
-                    Frontend Code
-                  </a>
-                  <br />
-                  {/* Live Site Link */}
-                  <a
-                    href={project.liveSiteLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block text-sm text-purple-400 underline hover:text-pink-500 transition-colors duration-300"
-                  >
-                    Live Site
-                  </a>
-                  <br />
-                  <Link to={`/details/${project.id}`}>View Details</Link>
+                {/* Project Details */}
+                <div className="p-6 text-center">
+                  <h3 className="text-xl font-bold text-pink-400 mb-2">
+                    {project.projectName}
+                  </h3>
+                  <div className="text-gray-300 space-y-2">
+                    {/* Frontend Code Link */}
+                    <a
+                      href={project.frontendCodeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-sm text-purple-400 underline hover:text-pink-500 transition-colors duration-300"
+                    >
+                      Frontend Code
+                    </a>
+                    <br />
+                    {/* Live Site Link */}
+                    <a
+                      href={project.liveSiteLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-sm text-purple-400 underline hover:text-pink-500 transition-colors duration-300"
+                    >
+                      Live Site
+                    </a>
+                    <br />
+                    <Link to={`/details/${project.id}`}>View Details</Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "projectImage": "https://i.ibb.co.com/S77z8t0m/Screenshot-2025-01-29-at-8-42-34-PM.png",
+    "projectName": "Brainshare",
+    "projectFeatures": [
+      "Create Posts: Users can create and share their posts with the community.",
+      "User Management: Admins can manage users and assign admin roles.",
+      "Gold Badge Membership: Users can opt for premium membership by completing a Stripe-powered payment process to unlock exclusive features."
+    ],
+    "projectDescription": "Brainshare is a dynamic social platform where users can share posts, engage with others through comments, and upvote or downvote posts. The platform also includes an admin panel for managing users and reported comments, and offers a premium membership feature powered by Stripe payment integration.",
+    "frontendCodeLink": "https://github.com/ranak8811/BrainShare-Client",
+    "backendCodeLink": "https://github.com/ranak8811/BrainShare-Server",
+    "liveSiteLink": "https://brainshare-a-12.web.app/"
+  },
+  {
+    "id": 2,
     "projectImage": "https://i.ibb.co.com/DQWgm5X/Screenshot-2025-01-04-at-11-23-21-PM.png",
     "projectName": "Movie-Paradise",
     "projectFeatures": [
@@ -14,20 +28,7 @@
     "backendCodeLink": "https://github.com/ranak8811/PH-Movie-Paradise-Server--B-10_A-10",
     "liveSiteLink": "https://movie-portal-b3ddf.web.app/"
   },
-  {
-    "id": 2,
-    "projectImage": "https://i.ibb.co.com/BTt5XYZ/Screenshot-2025-01-04-at-11-21-46-PM.png",
-    "projectName": "EduVerse",
-    "projectFeatures": [
-      "Course Booking: Users can book any available course.",
-      "Admin User Management: The administrator has the ability to manage the booking status of all users.",
-      "Dark/Light Mode: The website offers a toggle feature for switching between dark and light mode."
-    ],
-    "projectDescription": "This platform allows users to conveniently book courses of their choice. Administrators have the necessary tools to efficiently manage user bookings. Additionally, the website enhances user experience by providing a customizable dark/light mode option.",
-    "frontendCodeLink": "https://github.com/ranak8811/PH_B-10_A-11-EduVerse-Client",
-    "backendCodeLink": "https://github.com/ranak8811/PH_B-10_A-11-EduVerse-Server",
-    "liveSiteLink": "https://eduverse-ph-a-11.web.app/"
-  },
+
   {
     "id": 3,
     "projectImage": "https://i.ibb.co.com/smyZ80d/Screenshot-2025-01-04-at-11-24-08-PM.png",
