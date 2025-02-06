@@ -13,8 +13,25 @@
     "backendCodeLink": "https://github.com/ranak8811/BrainShare-Server",
     "liveSiteLink": "https://brainshare-a-12.web.app/"
   },
+
   {
     "id": 2,
+    "projectImage": "https://i.ibb.co.com/BTt5XYZ/Screenshot-2025-01-04-at-11-21-46-PM.png",
+    "projectName": "EduVerse",
+    "projectFeatures": [
+      "Add, Update, Delete Courses: Users can easily manage courses using the platform's intuitive interface.",
+      "Status Updates: Providers can change the status of a booked course to Pending, Working, or Completed to track progress.",
+      "Persistent Theme: The selected theme is stored in local storage, ensuring the preference is retained across sessions.",
+      "JWT Authentication: Ensures secure user activity. If any user attempts illegal activity, they will be logged out immediately."
+    ],
+    "projectDescription": "A dynamic and feature-packed educational platform where users can explore, book, and manage courses effortlessly. Whether you're a learner or a provider, EduVerse ensures a seamless and enjoyable experience with modern features and responsive design.",
+    "frontendCodeLink": "https://github.com/ranak8811/PH_B-10_A-11-EduVerse-Client",
+    "backendCodeLink": "https://github.com/ranak8811/PH_B-10_A-11-EduVerse-Server",
+    "liveSiteLink": "https://eduverse-ph-a-11.web.app/"
+  },
+
+  {
+    "id": 3,
     "projectImage": "https://i.ibb.co.com/DQWgm5X/Screenshot-2025-01-04-at-11-23-21-PM.png",
     "projectName": "Movie-Paradise",
     "projectFeatures": [
@@ -27,21 +44,5 @@
     "frontendCodeLink": "https://github.com/ranak8811/PH-Movie-Paradise-Client--B-10_A-10",
     "backendCodeLink": "https://github.com/ranak8811/PH-Movie-Paradise-Server--B-10_A-10",
     "liveSiteLink": "https://movie-portal-b3ddf.web.app/"
-  },
-
-  {
-    "id": 3,
-    "projectImage": "https://i.ibb.co.com/smyZ80d/Screenshot-2025-01-04-at-11-24-08-PM.png",
-    "projectName": "Edufy",
-    "projectFeatures": [
-      "Course Enrollment: Students can enroll in desired courses.",
-      "Quiz Participation: Students can participate in both Multiple-Choice Question (MCQ) and written quizzes.",
-      "Admin Announcements: Administrators can disseminate course-related announcements to students.",
-      "Course Material Access: Students have access to all course materials."
-    ],
-    "projectDescription": "This platform provides students with the ability to enroll in courses, participate in various quiz formats, receive important announcements from administrators, and access all necessary course materials.",
-    "frontendCodeLink": "https://github.com/MaHdIn2020/Edufy-E-learning-platform-/tree/browse",
-    "backendCodeLink": "https://github.com/ranak8811/Edufy-server-CSE470",
-    "liveSiteLink": "https://edufy-cse470.web.app/"
   }
 ]

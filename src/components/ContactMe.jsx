@@ -29,7 +29,13 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-black via-purple-900 to-black text-white py-16 px-6">
+    <section
+      className="min-h-screen bg-gradient-to-b from-black via-purple-900 to-black text-white py-16 px-6"
+      id="contact"
+    >
+      <h2 className="text-center text-4xl font-bold text-pink-500 mb-12">
+        Contact Me
+      </h2>
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left Section: Email Form */}
         <motion.div

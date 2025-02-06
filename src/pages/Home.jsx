@@ -15,7 +15,7 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
-  console.log(projects.length);
+  // console.log(projects.length);
   return (
     <div>
       <header>

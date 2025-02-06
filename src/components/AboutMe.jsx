@@ -119,10 +119,26 @@ const AboutMe = () => {
               Why I Love to Learn
             </h3>
             <p className="text-gray-200">
-              My journey has been driven by curiosity and a passion for growth.
-              Exploring fields like app and web development, competitive
-              programming, and machine learning has taught me that continuous
-              learning is the key to finding what suits me best.
+              My journey has been defined by a deep curiosity and a commitment
+              to continuous learning. I&apos;ve explored the dynamic world of
+              app and web development, honed my problem-solving skills through
+              competitive programming, and been captivated by the potential of
+              machine learning. This diverse exploration has taught me the true
+              value of learning—not just as a means to an end, but as a process
+              of self-discovery, helping me understand my strengths, interests,
+              and the direction I want to take my career.
+            </p>
+
+            <h3 className="text-xl font-bold text-white my-4">Future Goal</h3>
+            <p className="text-gray-200">
+              I&apos;m on a journey to become a Full-Stack Developer, and
+              I&apos;m incredibly excited about the future of AI. My passion
+              lies in Machine Learning and NLP, and I&apos;m currently immersed
+              in my thesis project: creating an AI model to empower medical
+              students. I believe AI has the power to transform various fields,
+              and I&apos;m excited to combine my full-stack development skills
+              with my AI knowledge to create innovative and impactful
+              solutions..
             </p>
           </motion.div>
         </div>

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import logo from "../assets/portfolio.png";
 import { Typewriter } from "react-simple-typewriter";
 const Navbar = () => {
@@ -11,10 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-neutral text-base-100 shadow-md sticky top-0 z-50">
+    <nav className="bg-neutral text-base-100 shadow-md sticky top-0 z-100">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Start Part: Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center min-w-[155px]">
           <img className="w-auto h-10 mr-2" src={logo} alt="" />
           <h1 className="text-2xl font-bold text-pink-500">
             <Typewriter
@@ -30,11 +29,14 @@ const Navbar = () => {
 
         {/* Middle Part: Nav Links */}
         <div className="hidden md:flex space-x-8 text-lg font-medium">
-          <Link to={"/"} className="hover:text-secondary">
+          <a href="/" className="hover:text-secondary">
             Home
-          </Link>
+          </a>
           <a href="#about" className="hover:text-secondary">
             About
+          </a>
+          <a href="#skills" className="hover:text-secondary">
+            Skills
           </a>
           <a href="#projects" className="hover:text-secondary">
             Projects
@@ -81,6 +83,13 @@ const Navbar = () => {
               onClick={handleToggleMenu}
             >
               About
+            </a>
+            <a
+              href="#skills"
+              className="hover:text-secondary"
+              onClick={handleToggleMenu}
+            >
+              Skills
             </a>
             <a
               href="#projects"

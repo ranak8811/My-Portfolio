@@ -5,13 +5,20 @@ import profileImg from "../assets/profile.jpeg";
 
 const Banner = () => {
   return (
-    <div className="bg-black min-h-[calc(100vh-72px)] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 text-white">
+    <div
+      className="bg-black min-h-[calc(100vh-72px)] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 text-white"
+      id="home"
+    >
       {/* Left Section */}
       <div className="flex flex-col justify-center items-start space-y-6 w-full md:w-1/2">
         {/* Typewriter Titles */}
         <h1 className="text-4xl md:text-5xl font-bold">
           <Typewriter
-            words={["Frontend Developer", "CSE Student"]}
+            words={[
+              "Frontend Developer",
+              "AI Enthusiast",
+              "MERN Stack Developer",
+            ]}
             loop={true}
             cursor
             cursorStyle="|"
